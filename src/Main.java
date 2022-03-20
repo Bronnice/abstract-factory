@@ -1,5 +1,5 @@
-import factory.PizzaStore;
-import factory.SimplePizzaFactory;
+import Fabrication.PizzaStore;
+import Fabrication.SimplePizzaFactory;
 
 public class Main {
 
