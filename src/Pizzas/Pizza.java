@@ -2,22 +2,22 @@ package Pizzas;
 
 public abstract class Pizza {
 
-    String description;
+    String description = "";
 
-    public String prepare()
+    public void prepare()
     {
-        return "Подготовлена ";
+        description += "Подготовлена ";
     }
-    public String bake()
+    public void bake()
     {
-        return "Испечена ";
+        description += "Испечена ";
     }
-    public String cut()
+    public void cut()
     {
-        return "Разрезана ";
+        description += "Разрезана ";
     }
-    public String box()
+    public void box()
     {
-        return "Упакована ";
+        description += "Упакована ";
     }
 }

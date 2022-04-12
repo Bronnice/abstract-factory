@@ -4,7 +4,12 @@ public class VeggiePizza extends Pizza{
 
     public VeggiePizza()
     {
-        description = "Вегетерианская пицца ";
+        description += "Вегетерианская пицца ";
     }
 
+    @Override
+    public void box()
+    {
+        description += "Упакована для вегетерианской ";
+    }
 }
